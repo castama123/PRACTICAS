@@ -9,18 +9,10 @@ if(!isset($_SESSION['usuario'])){
           window.location = "index.php";
       </script>
     ';
-    // header("location: index.php");
     
     session_destroy();
     die();
 }
-
-
-// Consultando en la Base de datos
-
-// $sqlreporte = "SELECT Rep.numerorep, Rep.fecharep, Rep.observaciones, Com.compromiso, Rep.idusuario
-//                 FROM reportes Rep
-//                 LEFT OUTER JOIN reportes_compromiso Com ON Rep.idusuario = Com.idusuario";
 
 ?>
 

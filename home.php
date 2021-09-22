@@ -9,7 +9,6 @@ if(!isset($_SESSION['usuario'])){
           window.location = "index.php";
       </script>
     ';
-    // header("location: index.php");
     
     session_destroy();
     die();
@@ -36,64 +35,6 @@ if(!isset($_SESSION['usuario'])){
 
 
 <body>
-
-
-<!-- <section class="text-center pt-5 pb-5 text-white" style="height: 120px!important; background-color:#122138">
-    <h1>Bienvenid@</h1>
-    <h2>
-        <?php echo $_SESSION['nombre'] ?>
-</h2>
-    <h5 style="text-align:right;"><a class="text-white-50" href="php/cerrar_sesion.php">Cerrar sesión</a></h5></section>    
-    <img src="assets/images/bienvenido.png" alt=""> -->
-
-
-<!-- <section>
-        <div>
-            <img src="assets/images/bienvenido.png"/>
-            <div class="centrado">
-            <h4 class="media-container-row"><?php echo $_SESSION['nombre'] ?></h4>
-            </div>
-        </div>
-        <h6 style="text-align:right;"><a class="" href="php/cerrar_sesion.php">Cerrar sesión</a></h6>
-</section> -->
-    <!-- <div class="row text center" style="background-color:#122138; height: 60px,">
-        <div class="col-3"></div>
-        <div class="col-3"></div>
-        <div class="col-3"></div>
-        <div class="col-3" style="padding: 36px 0 0 234px;">
-            <a class="text-white text-right" href="php/cerrar_sesion.php" >Cerrar sesión</a>
-        </div>
-    </div> -->
-
-
-<!-- <nav style="background-color:#122138; height:3rem; padding-top: 26px">
-        <h6 style="text-align:right;"><a class="text-white pr-2" href="php/cerrar_sesion.php">Cerrar sesión</a></h6>
-</nav>
-
-        <section>
-            <div class="row">
-                    <div class="col-2">
-                        <img class="" src="assets/images/cabezote_encuesta_01.jpg" alt="imagen">
-                    </div>
-                    <div class="col-4">
-                        <div class="row">
-                            <div class="col-12 pb-2">
-                            <img class="" src="assets/images/cabezote_encuesta_02.jpg" alt="imagen">
-                            </div>
-                            <div class="col-7 centrado">
-                                <h4 class="media-container-row pt-1"><?php echo $_SESSION['nombre'] ?></h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3"></div>
-                    <div class="col-3">
-                        <img class="" src="assets/images/cabezote_encuesta_03.jpg" alt="imagen">
-                    </div>
-            </div>
-                    <h1 class="mbr-section-title mb-4 display-2 pb-5 text-center">
-                        <strong>Por favor diligencia la siguiente informaci&oacute;n</strong>
-                    </h1>
-        </section> -->
 
 <!-- Inicio Navbar -->
 <div>

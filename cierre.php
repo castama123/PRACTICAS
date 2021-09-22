@@ -9,7 +9,6 @@ if(!isset($_SESSION['usuario'])){
           window.location = "index.php";
       </script>
     ';
-    // header("location: index.php");
     
     session_destroy();
     die();
